@@ -162,7 +162,7 @@ module block(
     stud_spacing=(brand == "lego" ? 8 : 8 * 2);
     block_height=(brand == "lego" ? (type == "baseplate" ? 1.3 : 9.6) : 9.6 * 2);
     pin_diameter=(brand == "lego" ? 3 : 3 * 2);
-    post_diameter=(brand == "lego" ? 6.5 : 13.2);
+    post_diameter=(brand == "lego" ? 7 : 13.2);
     cylinder_precision=(brand == "lego" ? 0.1 : 0.05);
     reinforcing_width = (brand == "lego" ? 0.7 : 1);
 
