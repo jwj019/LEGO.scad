@@ -155,14 +155,14 @@ module block(
     dual_bottom=false
     ) {
     post_wall_thickness = (brand == "lego" ? 0.85 : 1);
-    wall_thickness=(brand == "lego" ? 1.45 : 1.5);
+    wall_thickness=(brand == "lego" ? 1.2 : 1.5);
     stud_diameter=(brand == "lego" ? 4.85 : 9.35);
     hollow_stud_inner_diameter = (brand == "lego" ? 3.1 : 6.7);
     stud_height=(brand == "lego" ? 1.8 : 4.4);
     stud_spacing=(brand == "lego" ? 8 : 8 * 2);
     block_height=(brand == "lego" ? (type == "baseplate" ? 1.3 : 9.6) : 9.6 * 2);
     pin_diameter=(brand == "lego" ? 3 : 3 * 2);
-    post_diameter=(brand == "lego" ? 7 : 13.2);
+    post_diameter=(brand == "lego" ? 6 : 13.2);
     cylinder_precision=(brand == "lego" ? 0.1 : 0.05);
     reinforcing_width = (brand == "lego" ? 0.7 : 1);
 
